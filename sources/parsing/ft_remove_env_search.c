@@ -34,7 +34,7 @@ void	ft_remove_env_search(char **env, char *str, int i, int j)
 				return ;
 			}
 		}
-		if (!(*tmp)[i])
+		if (!(*env)[i])
 			break ;
 	}
 }
