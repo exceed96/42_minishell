@@ -33,7 +33,7 @@ char	*ft_search_env(char *env, char *target)
 				j++;
 			}
 			if (j == (int)ft_strlen(target) && env[i] == '=')
-				return (ft_strndup(env + i + 1), ft_len_env(env + i + 1));
+				return (ft_strndup(env + i + 1), ft_len_env_wl(env + i + 1));
 		}
 		i++;
 	}
